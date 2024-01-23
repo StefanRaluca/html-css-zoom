@@ -22,7 +22,7 @@ header {
 }
 
 /* style of icon header */
-span {
+.icon_style {
     padding: 5px;
     background-color: grey;
     border-radius: 10px;
@@ -42,9 +42,14 @@ img {
 
 }
 
+main {
+    height: 100vh;
+}
+
 .image_main {
     position: relative;
 }
+
 /* style of photo text */
 .decoration {
     background-color: #d3d3d3b3;
@@ -53,14 +58,37 @@ img {
     left: 5px;
     color: white;
 }
+
 /* style of row */
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* style of column */
 .col {
     width: calc((100% / 12) * 1.70);
     padding: 0.2rem;
 }
 
+.container_footer {
+    width: 90%;
+    max-width: 1400px;
+    padding: 20px;
+    height: 80px;
+    position: relative;
+}
+
+.icon_footer {
+    color: white;
+    font-size: medium;
+    display: block;
+
+}
+
+.arrow {
+    position: relative;
+    left: 50px;
+    bottom: 0;
+    color: white;
+}
