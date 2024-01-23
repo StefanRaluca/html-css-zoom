@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:black;
+    background-color: black;
 }
 
 /* style of header */
@@ -29,24 +29,38 @@ span {
     font-size: small;
 }
 
-
+/* style of main */
 img {
     max-width: 100%;
 }
 
+/* style of container main */
 .container {
     width: 90%;
     margin: auto;
     max-width: 1400px;
-   
+
 }
 
-.col {
-    width: calc((100% / 12) * 1.70);
-    padding: 5px;
+.image_main {
+    position: relative;
 }
-
+/* style of photo text */
+.decoration {
+    background-color: #d3d3d3b3;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: white;
+}
+/* style of row */
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+/* style of column */
+.col {
+    width: calc((100% / 12) * 1.70);
+    padding: 0.2rem;
+}
+
