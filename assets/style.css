@@ -26,7 +26,8 @@ header {
     padding: 5px;
     background-color: grey;
     border-radius: 10px;
-    font-size: small;
+    font-size: 1.1rem;
+
 }
 
 /* style of main */
@@ -41,13 +42,10 @@ img {
     margin: auto;
     max-width: 1400px;
     height: 100%;
+    padding-bottom: 15px;
 
 }
 
-main {
-    height: 100vh;
-    overflow: hidden;
-}
 
 .image_main {
     position: relative;
@@ -78,7 +76,6 @@ main {
 footer {
     background-color: #222222;
     height: 60px;
-    margin: 9px;
     color: white;
 }
 
